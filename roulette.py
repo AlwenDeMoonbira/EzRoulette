@@ -5,13 +5,13 @@ import tkinter
 from tkinter import messagebox
 import random
 
-bullet=[0,0,0,0,0,0]
+bullet=[0,0,0]
 item_list=['cigarette','magnifier','handcuffs','knife']
 player_heal=int(3)
 dm_heal=int(3)
 true_bullet=0
 false_bullet=0
-item_own=['','','','','','','','']
+item_own=['','']
 item_used=[1,1,1,1,1,1,1,1]
 loaded_Bu=0
 KnifeMark=0
